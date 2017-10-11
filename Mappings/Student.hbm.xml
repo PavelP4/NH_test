@@ -11,6 +11,15 @@
     <property name = "FirstName"/>
     <property name = "LastName"/>
     <property name = "AcademicStanding" />
+
+    <component name = "Address">
+      <property name = "Street"/>
+      <property name = "City"/>
+      <property name = "Province"/>
+      <property name = "Country"/>
+    </component>
+
+    <many-to-one name = "Faculty" column = "FacultyID"/>
   </class>
 
 </hibernate-mapping>

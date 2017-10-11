@@ -13,6 +13,7 @@
     </property>
 
     <!--<mapping    assembly = "CAppNH"/>-->
+    <!--<property name = "show_sql">true</property>-->
   </session-factory>
 
 </hibernate-configuration>
